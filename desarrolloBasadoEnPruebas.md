@@ -22,11 +22,16 @@ Instalar la versión 4.9.1 y 0.11:
     nvm install <version>
 ```
 
+![nvm list](doc/img/nvm-install-4.9.1.png)
+![nvm list](doc/img/nvm-install-0.11.png)
+
 Ver todas las versiones instaladas en el sistema:
 
 ```bash
     nvm list
 ```
+
+![nvm list](doc/img/nvm-list.png)
 
 Activar una versión específica.
 
@@ -48,11 +53,15 @@ Crear entorno virtual con el interprete python 2.7
     virtualenv entorno2.7
 ```
 
+![nvm list](doc/img/virtualenv2.7.png)
+
 Crear entorno virtual con python3:
 
 ```bash
     virtualenv -p /usr/bin/python3 entorno3
 ```
+
+![nvm list](doc/img/virtualenv3.png)
 
 (Con la opción -p se indica el interprete que se va a utilizar en el entorno)  
 
@@ -67,3 +76,5 @@ Desactivar el entorno virtual
 ```bash
     (entorno2.7)$ deactivate
 ```
+
+![nvm list](doc/img/virtualenv-activate.png)
