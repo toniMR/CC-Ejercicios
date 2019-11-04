@@ -10,12 +10,6 @@ Instalar nvm:
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 ```
 
-Instalar ultima version de nvm:
-
-```bash
-    nvm install node
-```
-
 Listar todas las versiones LTS disponibles para descargar desde los repositorios oficiales de Node.
 
 ```bash
