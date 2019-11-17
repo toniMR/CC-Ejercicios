@@ -87,12 +87,12 @@ Usaré como ejemplo el package.json que utilizo para el microservicio de gestió
 
 Campos:
 
-- name: Es el nombre del proyecto.
-- version: versión actual del proyecto.
-- description: Breve descripción del proyecto.
-- main: El archivo principal.
-- dependencies: Dependencias del proyecto en un entorno de producción.
-- devDependencies: Son las dependencias necesarias en un entorno de de testing y desarrollo.
-- scripts: Comandos que se podrán ejecutar. Por ejemplo con el comando npm test se ejecutarán los tests y se subirá el reporte de cobertura a codecov.
-- author: Autor del proyecto.
-- license: Licencia del proyecto. En mi caso ISC, que es una licencia de software libre permisiva.
+- **name**: Es el nombre del proyecto.
+- **version**: versión actual del proyecto.
+- **description**: Breve descripción del proyecto.
+- **main**: El archivo principal.
+- **dependencies**: Dependencias del proyecto en un entorno de producción.
+- **devDependencies**: Son las dependencias necesarias en un entorno de de testing y desarrollo.
+- **scripts**: Comandos que se podrán ejecutar. Por ejemplo con el comando npm test se ejecutarán los tests y se subirá el reporte de cobertura a codecov.
+- **author**: Autor del proyecto.
+- **license**: Licencia del proyecto. En mi caso ISC, que es una licencia de software libre permisiva.
