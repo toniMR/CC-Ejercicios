@@ -2,11 +2,11 @@
 
 ## Ejercicio 2: Tomar algún programa simple, “Hola mundo” impreso desde el intérprete de línea de órdenes, y comparar el tamaño de las imágenes de diferentes sistemas operativos base, Fedora, CentOS y Alpine, por ejemplo.
 
-### alpine
+### Alpine
 
 Dockerfile de alpine:
 
-```bash
+```dockerfile
     # Escoger la base
     FROM python:alpine
 
@@ -38,7 +38,7 @@ CentOS tiene python2 instalado por defecto.
 
 Dockerfile de centos:
 
-```bash
+```dockerfile
     # Escoger la base
     FROM centos:centos7
 
@@ -64,13 +64,13 @@ Ejecutar desde el directorio 'docker':
     docker build -t centos-hello -f centos/Dockerfile .
 ```
 
-### fedora
+### Fedora
 
 Fedora tiene python3 instalado por defecto:  
 
 Dockerfile de fedora:
 
-```bash
+```dockerfile
     # Escoger la base
     FROM fedora:latest
 
