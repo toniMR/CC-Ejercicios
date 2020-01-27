@@ -70,6 +70,14 @@ Vagrant.configure("2") do |config|
 end
 ```
 
+Y también he tenido que añadir el archivo ansible_host.ini
+
+```ini
+# Máquina virtual
+[ejerbox]
+ejerciciosbox ansible_ssh_host=127.0.0.1 ansible_ssh_port=2222
+```
+
 Si la máquina ya está creada solo tendremos que indicar para provisionar la máquina:
 
 ```bash
