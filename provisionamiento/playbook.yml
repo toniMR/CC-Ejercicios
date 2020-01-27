@@ -1,0 +1,15 @@
+---
+  - hosts: ejerbox
+    become: yes
+  
+    tasks:
+      - name: Instalar git
+        apt:
+          name: git
+  
+  
+      - name: Clonar repositorio
+        git:
+          repo: https://github.com/toniMR/CC-GestionPedidos.git
+          dest: CC-GestionPedidos.git
+  
